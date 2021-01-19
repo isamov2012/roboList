@@ -3,7 +3,7 @@ import Cards from "./Cards";
 import SearchBox from "./searchBox";
 import { robots } from "./robots";
 import "./App.css";
-import Scroll from "./Scroll"
+import Scroll from "./Scroll";
 
 class App extends Component {
   constructor() {
@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="tc">
         <h1 className="f1">
-          <a href="www.google.com">Robo Friends</a>
+          <a href="#">Robo Friends</a>
         </h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
