@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from "react";
 import Cards from "./Cards";
 import SearchBox from "./searchBox";
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="tc">
         <h1 className="f1">
+          // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a href="#">Robo Friends</a>
         </h1>
         <SearchBox searchChange={this.onSearchChange} />
